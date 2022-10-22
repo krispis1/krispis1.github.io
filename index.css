@@ -1,0 +1,45 @@
+@font-face {
+    font-family: font;
+    src: url('./UbuntuMono-R.ttf') format('truetype');
+    font-display: swap
+}
+
+html {
+    background: #252526;
+    font-family: font;
+    color: #fff;
+}
+
+button {
+    margin: 5px 0 5px 0;
+    font-family: font;
+    font-size: 16pt;
+}
+
+input {
+    font-family: font;
+    font-size: 16pt;
+}
+
+label {
+    margin: 5px 0 5px 0;
+}
+
+p {
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    border-width: 0 1px 0 1px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+label:hover {
+    color: rgb(145, 145, 145);
+}
